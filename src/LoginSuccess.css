@@ -1,0 +1,36 @@
+.login-success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  button[type="close"] {
+    border-radius: 50%; /* 讓 close button 變成圓形 */
+    background-color: #bbb;
+    border:1px solid #707070;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    position:absolute;
+    right: 0;
+    top: 0px; /* 讓 close button 距離 nav 上方的距離 */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="close"]:hover {
+    background-color: #555;
+  }
+  
